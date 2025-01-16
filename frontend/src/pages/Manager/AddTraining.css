@@ -1,0 +1,40 @@
+.add-training-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    gap: 10px;
+    width: 92% !important;
+  }
+  
+  .add-training-form input:focus {
+    border-color: #0061A1;
+    outline: none;
+  }
+
+  .add-training-form input {
+    border-radius: 10px;
+  }
+  
+  .save-training-btn {
+    background-color: #0061A1;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    width: 2cm;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .save-training-btn:hover {
+    background-color:#166faa;
+  }
